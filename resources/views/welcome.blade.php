@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-      
+        <x-navbar />
     </header>
     <main></main>
     <footer></footer>
