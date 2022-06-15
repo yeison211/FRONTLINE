@@ -7,7 +7,8 @@
     <title>FrontLine</title>
 </head>
 <body>
-<h1>FrontLine</h1>
-    
+    <h1>FrontLine</h1>
+    <nav>esto es un navbar</nav>
+
 </body>
 </html>
