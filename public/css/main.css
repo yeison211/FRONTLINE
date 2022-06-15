@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --mainColor: #070091;
+}
 
 body {
     width: 100%;
