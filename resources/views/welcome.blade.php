@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
 </head>
 <body>
-    <header></header>
+    <header>
+      
+    </header>
     <main></main>
     <footer></footer>
 </body>
