@@ -34,7 +34,7 @@ img {
 }
 
 /*
-Bppstra´Container 
+Bppstra´Container
 */
 .container,
 .container-fluid,
@@ -263,7 +263,7 @@ ACARGO ARTURO
 
 /*
 ===============
-BANNER 
+BANNER
 ==============
 */
 .banner {
@@ -272,9 +272,14 @@ BANNER
     background-color: gray;
 }
 
-
-
-
+/*
+===============
+carousel
+==============
+*/
+.container{
+    
+}
 
 
 
