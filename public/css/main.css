@@ -8,12 +8,13 @@ INCIALIZACION DE ESTILOS
 /*Colores y tamañosd de letra */
 :root {
     --mainColor: #070091;
+    --backgroundColor2: #ebf5ff;
     --fontSizeGrande: 1.5rem;
     --fontSize: 1rem;
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -97,6 +98,7 @@ navbar-pc
     background-color: white;
     padding: 0.6rem;
     position: fixed;
+    padding-top: 20px;
 }
 
 .navbar-pc ul {
@@ -110,6 +112,7 @@ navbar-pc
 .navbar-pc ul .item {}
 
 .navbar-pc ul li {
+    border-radius: 5px;
     cursor: pointer;
     font-size: var(--fontSize);
     padding: 0.3rem;
@@ -215,7 +218,7 @@ SERVICIOS
     padding-top: 2rem;
 }
 
-.section-serv h2 {
+.section-serv h2, .section-planes h2{
     text-align: center;
     padding-bottom: 1rem;
     font-weight: bolder;
@@ -235,7 +238,7 @@ SERVICIOS
     border: 1px solid var(--mainColor);
     border-radius: 0.7rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.4s;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 4px var(--mainColor);
@@ -246,7 +249,7 @@ SERVICIOS
     /* background-color: var(--mainColor); */
     color: white;
     text-shadow: 1px 0px 1px white;
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .item__imagen {
@@ -268,7 +271,19 @@ SERVICIOS
     font-size: var(--fontSize);
 }
 
+/*
+=============================
+ACARGO ELVER GALARGA
+PLANES 
+============================
+*/
 
+.container-planes{
+    background: var(--backgroundColor2);
+    height: 60vh;
+    width: 100vw;
+    margin-top: 1.5rem;
+}
 
 
 

@@ -21,6 +21,12 @@
     <div class="container">
         <x-servicios/>
     </div>
+     <!--Planes-->
+    <div class="container-planes">
+        <div class="container">
+            <x-planes/>
+        </div>
+    </div>
     </main>
     <footer></footer>
     <script src="{{asset('js/main.js')}}"></script>
