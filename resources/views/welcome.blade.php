@@ -10,12 +10,6 @@
     {{-- mapa --}}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-
-    <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
-    <!--script js -- Glider.js-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
-    <link rel="stylesheet" type="text/css" href="glider.css">
-    <!-- end -- script js -- Glider.js-->
 </head>
 <body>
     <header>
@@ -41,12 +35,6 @@
     </div>
     </main>
     <footer></footer>
-
-    <!--script js -- Glider.js-->
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-
-    <!-- end -- script js -- Glider.js-->
     <script src="{{ asset(mix('js/app.js')) }}"></script>
     <script src="{{asset('js/main.js')}}"></script>
 </body>
