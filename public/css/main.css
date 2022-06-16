@@ -229,9 +229,7 @@ Carousel
     margin-top: 3.5rem;
 }
 
-.swiper-slide img {
-    object-fit: cover;
-}
+.swiper-slide img {}
 
 /*
 =======================
