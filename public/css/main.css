@@ -8,8 +8,8 @@ INCIALIZACION DE ESTILOS
 /*Colores y tamañosd de letra */
 :root {
     --mainColor: #070091;
-    --fontSizeGrande: 1.3rem;
-    --fontSize: 1.15rem;
+    --fontSizeGrande: 1.5rem;
+    --fontSize: 1rem;
 }
 
 body {
@@ -145,7 +145,8 @@ navbar-pc
     top: -265%;
     width: 200px;
     height: 200px;
-    box-shadow: 1px 0px 2px 1px white
+    box-shadow: 1px 0px 2px 1px white;
+    z-index: 10;
 }
 
 /*
@@ -210,7 +211,62 @@ BANNER
 SERVICIOS 
 =======================
 */
-.servicios-box {}
+.section-serv {
+    padding-top: 2rem;
+}
+
+.section-serv h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.serv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+
+.serv-container .item {
+    height: 320px;
+    flex-basis: 320px;
+    border: 1px solid var(--mainColor);
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px var(--mainColor);
+}
+
+.serv-container .item:hover {
+    background-color: rgba(71, 65, 192, 0.8);
+    /* background-color: var(--mainColor); */
+    color: white;
+    text-shadow: 1px 0px 1px white;
+    transform: translateY(-5px);
+}
+
+.item__imagen {
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__titulo {
+    text-align: center;
+    font-size: var(--fontSizeGrande);
+    font-weight: bolder;
+}
+
+.item__desc {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: var(--fontSize);
+}
 
 
 

@@ -16,14 +16,12 @@
     <main>
         <!--NavbarMovile-->
         <x-navbarmovile/>
-    </main>
         <!--Banner-->
-    <x-banner/>
+      <x-banner/>
     <div class="container">
         <x-servicios/>
-
-
     </div>
+    </main>
     <footer></footer>
     <script src="{{asset('js/main.js')}}"></script>
 </body>
