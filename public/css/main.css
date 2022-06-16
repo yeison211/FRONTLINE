@@ -217,10 +217,16 @@ BANNER
 
 /*
 ===============
-carousel
+Carousel
 ==============
 */
-.container {}
+.swiper {
+    height: 550px;
+}
+
+.swiper-slide img {
+    object-fit: cover;
+}
 
 /*
 =======================
