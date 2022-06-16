@@ -103,7 +103,7 @@ Bppstra´Container
 /*
 =============================
 ACARGO ARTURO
-NAVBAR
+navbar-pc
 ============================
 */
 .nav-bar__toggle-btn {
@@ -159,14 +159,14 @@ NAVBAR
     transform: rotate(45deg);
 }
 
-.navbar {
+.navbar-pc {
     width: 100%;
     background-color: white;
     padding: 0.6rem;
     position: fixed;
 }
 
-.navbar ul {
+.navbar-pc ul {
     display: flex;
     justify-content: start;
     column-gap: 3rem;
@@ -174,27 +174,27 @@ NAVBAR
     align-items: center;
 }
 
-.navbar ul .item {}
+.navbar-pc ul .item {}
 
-.navbar ul li {
+.navbar-pc ul li {
     cursor: pointer;
     font-size: var(--fontSize);
     padding: 0.3rem;
 }
 
-.navbar ul li:nth-child(1) {
+.navbar-pc ul li:nth-child(1) {
     margin-right: auto;
 }
 
-.navbar ul li:hover {
+.navbar-pc ul li:hover {
     color: var(--mainColor);
 }
 
-.navbar ul .item {
+.navbar-pc ul .item {
     transition: all 0.7s;
 }
 
-.navbar ul .item:hover {
+.navbar-pc ul .item:hover {
     background-color: blue;
     color: white;
     border-radius: 0.5rem;
@@ -202,12 +202,12 @@ NAVBAR
     transform: translateY(-3px);
 }
 
-.navbar__logo {
+.navbar-pc__logo {
     width: 200px;
     position: relative;
 }
 
-.navbar__logo img {
+.navbar-pc__logo img {
     position: absolute;
     top: -200%;
     width: 200px;
@@ -286,13 +286,13 @@ RESPONSIVE
 */
 @media(max-width:900px) {
 
-    /*NAVBAR */
-    .navbar ul {
+    /*navbar-pc */
+    .navbar-pc ul {
         justify-content: space-between;
         margin-right: 0;
     }
 
-    .navbar ul .item {
+    .navbar-pc ul .item {
         display: none;
     }
 
@@ -304,7 +304,7 @@ RESPONSIVE
         display: block;
     }
 
-    .navbar__logo img {
+    .navbar-pc__logo img {
         left: 1%;
         width: 150px;
         height: 150px;
