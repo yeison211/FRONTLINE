@@ -15,7 +15,7 @@ INCIALIZACION DE ESTILOS
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -282,7 +282,7 @@ PLANES
 .container-planes {
     background: var(--backgroundColor2);
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     margin-top: 1.5rem;
 }
 
@@ -290,6 +290,30 @@ PLANES
 
 
 
+
+
+
+
+/*
+=============================
+MAPA
+=============================
+*/
+.caja-mapa {
+    height: 800px;
+}
+
+.caja-mapa__contenedor {
+    height: 600px;
+    width: 100%;
+}
+
+.caja-mapa h2 {
+    z-index: 5;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight: bolder;
+}
 
 /*
 =============================
@@ -321,6 +345,11 @@ RESPONSIVE
         width: 150px;
         height: 150px;
         top: -280%;
+    }
+
+    /*mapa */
+    .caja-mapa__contenedor {
+        height: 400px;
     }
 
 

@@ -14,3 +14,21 @@ function toggleSidebar() {
     sideBar.classList.toggle("navm-open");
     toggleSideb.classList.toggle("tsb-open");
 }
+/*
+===================
+MAPA
+====================
+*/
+var map = L.map("map").setView([10.39, -75.51], 15);
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+/*Coberturas */
+var circle = L.circle([10.39, -75.51], {
+    color: "skyb",
+    fillColor: "skyblue",
+    fillOpacity: 0.5,
+    radius: 1000,
+}).addTo(map);
