@@ -1,6 +1,6 @@
 <nav class="navbar">
     <ul>
-        <li class="navbar__logo" style="color: blue">logo</li>
+        <li class="navbar__logo" style="color: blue"><img src="{{asset('images/logo.jpg')}}" alt=""></li>
         <div class="nav-bar__toggle-btn"> <div class="toggle-btn__line"></div></div>
         <li class="item">Contactenos</li>
         <li class="item">Servicio</li>
