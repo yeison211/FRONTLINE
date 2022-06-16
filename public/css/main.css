@@ -160,7 +160,7 @@ ACARGO ARTURO
     position: fixed;
     top: 59px;
     right: 0;
-    border-radius: 0.6rem;
+    border-end-start-radius: 0.6rem;
     width: 150px;
     /* background-color: var(--mainColor); */
     /* background-color: rgba(71, 65, 192, 1); */
@@ -189,6 +189,10 @@ ACARGO ARTURO
     color: white;
     cursor: pointer;
     border-bottom: white 1px solid;
+}
+
+.nav-movil ul .item:last-child {
+    border-bottom: none;
 }
 
 .nav-movil ul .item:active {
