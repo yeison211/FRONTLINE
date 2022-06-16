@@ -167,6 +167,7 @@ navbar-pc
     background-color: white;
     padding: 0.6rem;
     position: fixed;
+    z-index: 100;
 }
 
 .navbar-pc ul {
