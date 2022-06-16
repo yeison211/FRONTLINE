@@ -1,14 +1,217 @@
+/*
+=========================
+INCIALIZACION DE ESTILOS
+=========================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+/*Colores y tamañosd de letra */
 :root {
     --mainColor: #070091;
+    --fontSizeGrande: 1.3rem;
+    --fontSize: 1.15rem;
 }
 
 body {
     width: 100%;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+=============================
+ACARGO ARTURO
+NAVBAR
+============================
+*/
+.navbar {
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+}
+
+.nav-bar__toggle-btn {
+    margin-left: 1rem;
+    width: 40px;
+    height: 40px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-btn__line {
+    border-radius: 5px;
+    width: 2rem;
+    background-color: black;
+    height: 2px;
+    transition: background-color 0.5s;
+}
+
+.toggle-btn__line::before {
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    width: 2rem;
+    background-color: black;
+    height: 2px;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+}
+
+.toggle-btn__line::after {
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    width: 2rem;
+    background-color: black;
+    height: 2px;
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+
+.tsb-open .toggle-btn__line {
+    background-color: transparent;
+}
+
+.tsb-open .toggle-btn__line::after {
+    transform: rotate(-45deg);
+
+}
+
+.tsb-open .toggle-btn__line::before {
+    transform: rotate(45deg);
+}
+
+
+.navbar__logo {}
+
+.navbar ul {
+    display: flex;
+    padding: 1rem;
+    justify-content: start;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.navbar ul .item {}
+
+.navbar ul li {
+    cursor: pointer;
+    font-size: var(--fontSize);
+    padding: 0.3rem;
+}
+
+.navbar ul li:hover {
+    color: var(--mainColor);
+}
+
+.navbar ul .item {
+    transition: all 0.7s;
+}
+
+.navbar ul .item:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+    transform: scale(1.13);
+    transform: translateY(-3px);
+}
+
+/*
+=======================
+ACARGO ARTURO
+=======================
+ASIDE O NAV MOVIL */
+.nav-movil {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    border: black 1px solid;
+    background-color: var(--mainColor);
+    transform: translateX(300px);
+    transition: all 0.7s;
+    display: none;
+}
+
+.navm-open {
+    transform: translateX(0px);
+}
+
+.nav-movil ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-movil ul .logo {
+    width: 250px;
+    height: 250px;
+    padding: 1.3rem;
+}
+
+.nav-movil ul li {
+    padding: 1.3rem 3rem;
+    font-size: var(--fontSize);
+    color: white;
+    border-top: 1px solid gray;
+    cursor: pointer;
+}
+
+.nav-movil ul li:active {
+    transform: scale(1.02);
+}
+
+/*
+===============
+BANNER 
+==============
+*/
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+
+
+/*
+=============================
+RESPONSIVE
+=============================
+*/
+@media(max-width:900px) {
+
+    /*NAVBAR */
+    .navbar ul {
+        justify-content: space-between;
+    }
+
+    .navbar ul .item {
+        display: none;
+    }
+
+    .nav-bar__toggle-btn {
+        display: flex;
+    }
+
+    .nav-movil {
+        display: block;
+    }
+
 }

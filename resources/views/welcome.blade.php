@@ -9,9 +9,16 @@
 </head>
 <body>
     <header>
+        <!--Navbar-->
         <x-navbar />
     </header>
-    <main></main>
+    <main>
+        <!--NavbarMovile-->
+        <x-navbarmovile/>
+    </main>
+        <!--Banner-->
+        <x-banner/>
     <footer></footer>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
