@@ -2,7 +2,7 @@
 let map = "";
 window.addEventListener("DOMContentLoaded", (event) => {
     carrousel(".swiper");
-    inicializarMapa(10.39, -75.51);
+    inicializarMapa(10.39, -75.51, 13);
 });
 
 /*=================
@@ -23,8 +23,8 @@ function toggleSidebar() {
 MAPA
 ====================
 */
-function inicializarMapa(coodenada1, coordenada2) {
-    map = L.map("map").setView([coodenada1, coordenada2], 15);
+function inicializarMapa(coodenada1, coordenada2, zoom) {
+    map = L.map("map").setView([coodenada1, coordenada2], zoom);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -46,6 +46,9 @@ function carrousel(clase) {
     const swiper = new Swiper(clase, {
         // Optional parameters
         direction: "vertical",
+        autoplay: {
+            delay: 5000,
+        },
         loop: true,
 
         // If we need pagination
