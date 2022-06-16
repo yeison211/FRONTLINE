@@ -170,6 +170,7 @@ NAVBAR
     display: flex;
     justify-content: start;
     column-gap: 3rem;
+    margin-right: 5rem;
     align-items: center;
 }
 
@@ -179,6 +180,10 @@ NAVBAR
     cursor: pointer;
     font-size: var(--fontSize);
     padding: 0.3rem;
+}
+
+.navbar ul li:nth-child(1) {
+    margin-right: auto;
 }
 
 .navbar ul li:hover {
@@ -284,6 +289,7 @@ RESPONSIVE
     /*NAVBAR */
     .navbar ul {
         justify-content: space-between;
+        margin-right: 0;
     }
 
     .navbar ul .item {
