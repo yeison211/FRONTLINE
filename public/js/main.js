@@ -1,7 +1,7 @@
 /*Inicializacion  */
 let map = "";
 window.addEventListener("DOMContentLoaded", (event) => {
-    carrousel();
+    carrousel(".swiper");
     inicializarMapa(10.39, -75.51);
 });
 
@@ -42,8 +42,8 @@ function inicializarMapa(coodenada1, coordenada2) {
 Carousel
 ===================
 */
-function carrousel() {
-    const swiper = new Swiper(".swiper", {
+function carrousel(clase) {
+    const swiper = new Swiper(clase, {
         // Optional parameters
         direction: "vertical",
         loop: true,
