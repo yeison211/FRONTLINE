@@ -4,53 +4,54 @@
         <div class="plan-box">
             <div class="plan-option">
                 <p class="plan-name">
-                    Plan 1
+                   20 MEGAS
                 </p>
-                <div class="plan-price">
-                    <p>99999$</p>
-                </div>
                 <ul class="plan-details">
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-                <a href="" class="plan-btn">Obtener ya</a>
+                <div class="plan-price">
+                    <div>$65<span>Mil</span></div>
+                    <button class="btn1">LO QUIERO</button>
+                </div>
             </div>
         </div>
         <div class="plan-box">
             <div class="plan-option">
                 <p class="plan-name">
-                    Plan 1
+                   50 MEGAS
                 </p>
-                <div class="plan-price">
-                    <p>99999$</p>
-                </div>
                 <ul class="plan-details">
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-                <a href="" class="plan-btn">Obtener ya</a>
+                <div class="plan-price">
+                    <div>$85<span>Mil</span></div>
+                    <button class="btn1">LO QUIERO</button>
+                </div>
             </div>
         </div>
         <div class="plan-box">
             <div class="plan-option">
                 <p class="plan-name">
-                    Plan 1
+                   100 MEGAS
                 </p>
-                <div class="plan-price">
-                    <p>99999$</p>
-                </div>
                 <ul class="plan-details">
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
-                    <li><strong>detalle</strong></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-                <a href="" class="plan-btn">Obtener ya</a>
+                <div class="plan-price">
+                    <div>$100<span>Mil</span></div>
+                    <button class="btn1">LO QUIERO</button>
+                </div>
             </div>
         </div>
+
     </div>
 </section>

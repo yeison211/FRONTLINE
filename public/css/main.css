@@ -9,8 +9,8 @@ INCIALIZACION DE ESTILOS
 :root {
     --mainColor: #070091;
     --backgroundColor2: #ebf5ff;
-    --SecondaryColor: #aaa6a6;
-    --ThierColor: #4da5ff;
+    --SecondaryColor: #e6dede;
+    --ThierColor: #dce9f7;
     --fontSizeGrande: 1.5rem;
     --fontSize: 1rem;
 }
@@ -34,6 +34,32 @@ ul {
 img {
     width: 100%;
     height: 100%;
+}
+
+/*
+======================== 
+Estilos generales
+===============
+*/
+.btn1 {
+    border: 1px solid transparent;
+    outline: none;
+    background-color: var(--mainColor);
+    color: white;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+}
+
+.btn1:hover {
+    border: var(--mainColor) solid 1px;
+    color: var(--mainColor);
+    background: none;
+}
+
+.btn1:active {
+    transform: scale(1.03);
+
 }
 
 /*Sobreescribir clases de libreria */
@@ -302,79 +328,81 @@ PLANES
 ============================
 */
 
-.container-planes{
-    background: var(--backgroundColor2);
-    height: 60%;
+.container-planes {
+    background: var(--ThierColor);
     width: 100%;
     margin-top: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-.plan-name, .plan-price, .plan-details, .plan-btn{
-    padding: 10px;
-}
 
-
-.info-planes{
-    margin: 0 auto;
-    max-width: 80%;
+.info-planes {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 2rem;
 }
 
-.plan-box{
+.plan-box {
+    overflow: hidden;
     display: flex;
     background-color: white;
+    box-shadow: 1px 1px 1px 1px white;
     width: 300px;
-    margin: 10px 5px;
-    height: 50vh;
+    height: 350px;
     z-index: 10;
     border-radius: 7px;
-    box-shadow: 0px 4px 6px black;
 }
 
-.plan-option{
+.plan-option {
     width: 100%;
     display: flex;
     flex-flow: column;
 }
 
-.section-planes .plan-box:hover {
+/* .section-planes .plan-box:hover {
     margin-top: -15px;
     background: white;
-}
+} */
 
 .plan-name {
     font-size: var(--fontSizeGrande);
-    color: var(--ThierColor);
+    background-color: var(--mainColor);
+    color: white;
     text-align: center;
     margin: 0;
     padding: 20px;
 }
 
-.plan-price {
+/* .plan-price {
     display: flex;
-    height: 15%;
     background: var(--ThierColor);
     font-size: var(--fontSizeGrande);
     box-shadow: 0px 2px 4px black;
     border-radius: 2px;
     justify-content: center;
     color: white;
-}
+} */
 
-.plan-btn {
+.plan-price {
     margin-top: auto;
     display: block;
-    background: var(--ThierColor);
-    color: white;
+    color: var(--mainColor);
     text-align: center;
-    font-size: var(--fontSizeGrande);
-    border-radius: 2px;
-    box-shadow: 0px 2px 4px var(--SecondaryColor);
     text-decoration: none;
-  }
+    padding: 1rem;
+}
+
+.plan-price>div {
+    text-align: start;
+    font-size: var(--fontSizeGrande);
+}
+
+.plan-price>div>span {
+    font-size: var(--fontSize);
+}
+
 
 
 
@@ -391,8 +419,6 @@ MAPA
 */
 .caja-mapa {
     height: 800px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .caja-mapa__contenedor {
@@ -403,9 +429,11 @@ MAPA
 
 .caja-mapa h2 {
     z-index: 5;
+    margin: 0;
     padding: 1.5rem 0;
     text-align: center;
     font-weight: bolder;
+    background-color: var(--ThierColor);
 }
 
 /*
@@ -457,9 +485,10 @@ RESPONSIVE
 
     /*caja planes*/
 
-    .plan-box:hover {
+    /* .plan-box:hover {
         margin-top: 10px;
     }
+
     .plan-box:first-child {
         margin-bottom: 20px;
     }
@@ -467,7 +496,8 @@ RESPONSIVE
     .plan-box:nth-child(2):hover {
         margin-top: 0px;
         margin-right: -30px;
-    }
+    } */
+
     /*
     .plan-box {
         width: 100%;

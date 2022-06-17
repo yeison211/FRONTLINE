@@ -28,11 +28,11 @@
         <x-servicios/>
     </div>
      <!--Planes-->
-    <div class="container-planes">
+    <section class="container-planes">
         <div class="container">
             <x-planes/>
         </div>
-    </div>
+    </section>
         <!--Mapa-->
         <x-mapa/>
     </div>
