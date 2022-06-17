@@ -3,11 +3,10 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="{{asset('images/img5.png')}}" alt=""></div>
+      <div class="swiper-slide"> <img src="{{asset('images/img5.png')}}" alt=""></div>
       <div class="swiper-slide"><img src="{{asset('images/img2.jpg')}}" alt=""></div>
       <div class="swiper-slide"><img src="{{asset('images/img3.jpg')}}" alt=""></div>
       <div class="swiper-slide"><img src="{{asset('images/img4.jpg')}}" alt=""></div>
-      ...
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
