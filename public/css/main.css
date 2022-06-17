@@ -383,5 +383,9 @@ RESPONSIVE
         height: 400px;
     }
 
+    .caja-mapa {
+        padding: 0;
+    }
+
 
 }

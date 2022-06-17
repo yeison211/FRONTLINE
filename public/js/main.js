@@ -97,6 +97,7 @@ function carrousel(clase) {
     const swiper = new Swiper(clase, {
         // Optional parameters
         direction: "horizontal",
+        effect: "fade",
         autoplay: {
             delay: 5000,
         },
