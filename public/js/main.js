@@ -96,7 +96,7 @@ Carousel
 function carrousel(clase) {
     const swiper = new Swiper(clase, {
         // Optional parameters
-        direction: "vertical",
+        direction: "horizontal",
         autoplay: {
             delay: 5000,
         },
