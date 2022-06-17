@@ -328,9 +328,9 @@ MAPA
 }
 
 .caja-mapa__contenedor {
-
     height: 400px;
     width: 100%;
+    z-index: 1;
 }
 
 .caja-mapa h2 {
