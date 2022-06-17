@@ -323,10 +323,13 @@ MAPA
 */
 .caja-mapa {
     height: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .caja-mapa__contenedor {
-    height: 600px;
+
+    height: 400px;
     width: 100%;
 }
 
