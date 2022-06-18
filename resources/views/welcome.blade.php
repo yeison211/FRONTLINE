@@ -37,7 +37,9 @@
         <x-mapa/>
     </div>
     </main>
-    <footer></footer>
+    <footer>
+    <x-button/>
+    </footer>
     <script src="{{ asset(mix('js/app.js')) }}"></script>
     {{-- Carrusel --}}
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
