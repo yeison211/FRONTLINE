@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FrontLine</title>
     <!--icono frontline-->
-    <link rel="shortcut icon" href="{{ asset('images/Frotnlinr-Azul.png') }}">
+    <link rel="shortcut icon" href="{{ asset('images/icono_title.png') }}">
     <!--icono frontline-->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
