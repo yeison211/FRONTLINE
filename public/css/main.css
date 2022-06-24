@@ -389,6 +389,11 @@ PLANES
     background-color: #f7f7f7;
     margin: 0;
 }
+/*canales */
+.plan-option img{
+    border-bottom: 2px solid var(--mainColor);
+    margin-bottom: 1rem;
+}
 .plan-details{
     margin:0;
 }
