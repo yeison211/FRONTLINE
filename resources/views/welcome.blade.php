@@ -29,11 +29,9 @@
     <section class="qsomos">
         <div class="qsomos__text">
             <h1>FRONTLINE</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicin
-                g elit. Tenetur sed facilis, accusamus perferendis ul
-                lam nostrum odio! Iusto voluptate sunt perspiciatis magni dolorem, 
-                molestias praesentium atque rem 
-                inventore reprehenderit soluta. Voluptate?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi asperiores soluta eius quam nam dolore in similique, t
+                emporibus, placeat optio unde iure corporis libero quod culpa quasi tempore perspiciatis voluptatibus porro perferendis
+                 error minus consequuntur? Reprehenderit deleniti commodi beatae eaque!</p>
         </div>
         <div class="qsomos__img">
            
