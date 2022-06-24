@@ -1,5 +1,4 @@
 <div class="container">
-    <h2 class="titulo-footer">Nosotros</h2>
     <div class="caja-footer">
         <div class="info-footer">
             <h3>titulo</h3>
