@@ -26,7 +26,18 @@
       <x-banner/>
     </header>
     <main>
-    <section>
+    <section class="qsomos">
+        <div class="qsomos__text">
+            <h1>FRONTLINE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicin
+                g elit. Tenetur sed facilis, accusamus perferendis ul
+                lam nostrum odio! Iusto voluptate sunt perspiciatis magni dolorem, 
+                molestias praesentium atque rem 
+                inventore reprehenderit soluta. Voluptate?</p>
+        </div>
+        <div class="qsomos__img">
+           
+        </div>
 
     </section>
     <section class="container">
