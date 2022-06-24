@@ -18,15 +18,16 @@
 </head>
 <body>
     <header>
-        <!--Navbar-->
-        <x-navbar />
-    </header>
-    <main>
-    <section>
+      <!--Navbar-->
+      <x-navbar />
       <!--NavbarMovile-->
       <x-navbarmovile/>
       <!--Banner-->
       <x-banner/>
+    </header>
+    <main>
+    <section>
+
     </section>
     <section class="container">
         <x-servicios/>
