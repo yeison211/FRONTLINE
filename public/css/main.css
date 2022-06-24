@@ -13,6 +13,7 @@ INCIALIZACION DE ESTILOS
     --ThierColor: #dce9f7;
     --fontSizeGrande: 1.5rem;
     --fontSize: 1rem;
+    --footerColor: #0e0d22;
 }
 
 body {
@@ -202,8 +203,8 @@ ACARGO ARTURO
     border-end-start-radius: 0.6rem;
     width: 150px;
     /* background-color: var(--mainColor); */
-    /* background-color: rgba(71, 65, 192, 1); */
-    background-color: var(--SecondaryColor);
+    background-color: rgba(71, 65, 192, 1);
+    /* background-color: var(--SecondaryColor); */
     transform: translateX(150px);
     transition: all 0.7s;
     display: none;
@@ -357,8 +358,6 @@ PLANES
     background-color: white;
     box-shadow: 1px 1px 1px 1px white;
     width: 300px;
-    height: 350px;
-    z-index: 10;
     border-radius: 7px;
 }
 
@@ -381,29 +380,61 @@ PLANES
     margin: 0;
     padding: 20px;
 }
-
-/* .plan-price {
-    display: flex;
-    background: var(--ThierColor);
-    font-size: var(--fontSizeGrande);
-    box-shadow: 0px 2px 4px black;
-    border-radius: 2px;
-    justify-content: center;
-    color: white;
+.plan-subtitulo{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--mainColor);
+    /* border-bottom: 1px solid var(--mainColor);
+    border-top: 1px solid var(--mainColor); */
+    padding: 0.2rem;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+/*canales */
+.plan-option img{
+    border-bottom: 2px solid var(--mainColor);
+    margin-bottom: 1rem;
+}
+.plan-details{
+    margin:0;
+}
+.plan-details li{
+    font-size: 1.25rem;
+    /* cursor: pointer; */
+    padding:0.5rem 0rem;
+    transition: transform 0.3s;
+    position: relative;
+}
+.plan-details li::before{
+    content: '';
+    background-color: var(--mainColor);
+    /* width: 15px;
+    height: 3px; */
+    position: absolute;
+    top: 0%;
+}
+/* .plan-details li:hover{
+    transform: translateY(-3px);
 } */
+.plan-details li img{
+    max-width: 35px;
+    margin-right: 0.3rem;
+}
+
 
 .plan-price {
-    margin-top: auto;
     display: block;
     color: var(--mainColor);
     text-align: center;
     text-decoration: none;
     padding: 1rem;
+    padding-top: 0;
 }
 
 .plan-price>div {
     text-align: start;
     font-size: var(--fontSizeGrande);
+    padding-bottom: 0.5rem;
 }
 
 .plan-price>div>span {
@@ -417,9 +448,6 @@ PLANES
 MAPA
 =============================
 */
-.caja-mapa {
-    height: 800px;
-}
 
 .caja-mapa__contenedor {
     height: 400px;
@@ -436,6 +464,51 @@ MAPA
     background-color: var(--ThierColor);
 }
 
+/*
+=============================
+FOOTER
+=============================
+*/
+
+footer{
+    display: flex;
+    background: var(--footerColor);
+    height: 350px;
+    width: 100%;
+    flex-flow: column;
+}
+
+.titulo-footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.caja-footer{
+    display: flex;
+    position: relative;
+    top: 20px;
+    wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding-right: 10px;
+    padding: 0 10px;
+
+}
+
+info-footer{
+    font-size: var(--fontSize);
+    flex-basis: 50px;
+    margin: auto;
+
+}
+
+.creditos-footer{
+    background-color: #070091;
+    margin-top: 30px;
+}
 /*=========end estilo de mapa===================*/
 /*
 =============================
