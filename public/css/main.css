@@ -271,19 +271,43 @@ Quienes somos
 */
 .qsomos{
     display: flex;
+    flex-wrap: wrap;
+    background-color: var(--mainColor);
 }
 .qsomos__text{
     flex-basis: 50%;
-    padding: 6rem 4rem;
-    height: 500px;
+    padding: 4rem 4rem;
+    height: 450px;
     font-size: var(--fontSize);
-    background-color: var(--mainColor);
     color: white;
-    text-align: center; 
+    text-align: center;
+    outline: 1px solid #fff;
+    outline-offset: -20px;
+    /* border-bottom: 1px solid white;
+    border-left: 1px solid white; */
+}
+.qsomos__text >img{
+    width: 255px;
+    height: 130px;
+    filter: invert(1);
+    object-fit: cover;
+}
+.qsomos__text h1{
+   position: relative;
+   display: block;
+   font-weight: bolder;
+}
+.qsomos__text h1::before{
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: -10%;
 }
 .qsomos__img{
     flex-basis: 50%;
-    background-color: rgb(218, 212, 212);
+    background-color: rgb(218, 212, 212) !important;
 }
 
 
@@ -302,6 +326,8 @@ SERVICIOS
     text-align: center;
     padding-bottom: 1rem;
     font-weight: bolder;
+    color: var(--mainColor);
+    font-size: 2.25rem;
 }
 
 .serv-container {
@@ -480,12 +506,12 @@ MAPA
 }
 
 .caja-mapa h2 {
-    z-index: 5;
     margin: 0;
     padding: 1.5rem 0;
     text-align: center;
     font-weight: bolder;
     background-color: var(--ThierColor);
+    font-size: 2.25rem;
 }
 
 /*
@@ -570,6 +596,14 @@ RESPONSIVE
     /*Banner */
     .swiper {
         height: 300px;
+    }
+    /*Quienes somos */
+    .qsomos__text{
+        flex-basis: 100%;
+    }
+    .qsomos__img{
+        display: hidden;
+        flex-basis: 100%;
     }
 
 

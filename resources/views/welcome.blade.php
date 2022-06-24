@@ -28,10 +28,12 @@
     <main>
     <section class="qsomos">
         <div class="qsomos__text">
+            <img src="{{asset('images/Frotnlinr-Azul.png')}}" alt="">
             <h1>FRONTLINE</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi asperiores soluta eius quam nam dolore in similique, t
                 emporibus, placeat optio unde iure corporis libero quod culpa quasi tempore perspiciatis voluptatibus porro perferendis
-                 error minus consequuntur? Reprehenderit deleniti commodi beatae eaque!</p>
+                 error minus consequuntur? Reprehenderit deleniti commodi beatae eaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nihil!.</p>
         </div>
         <div class="qsomos__img">
            
