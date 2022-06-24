@@ -1,4 +1,4 @@
-<section class="section-serv">
+<div class="section-serv">
     <h2>SERVICIOS</h2>
     <div class="serv-container">
         <div class="item">
@@ -23,4 +23,4 @@
                 voluptatibus sequi recusandae?</p>
         </div>
     </div>
-</section>
+</div>

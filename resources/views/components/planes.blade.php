@@ -1,4 +1,4 @@
-<section class="section-planes">
+<div class="section-planes">
     <h2>Planes</h2>
     <div class="info-planes">
         <div class="plan-box">
@@ -63,4 +63,4 @@
         </div>
 
     </div>
-</section>
+</div>
