@@ -36,6 +36,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nihil!.</p>
         </div>
         <div class="qsomos__img">
+            img
            
         </div>
 
