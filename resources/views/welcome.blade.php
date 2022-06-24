@@ -51,7 +51,8 @@
         <x-mapa/>
     </main>
     <footer>
-    <x-button/>
+        <x-footer/>
+        <x-button/>
     </footer>
     <script src="{{ asset(mix('js/app.js')) }}"></script>
     {{-- Carrusel --}}

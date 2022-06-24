@@ -13,6 +13,7 @@ INCIALIZACION DE ESTILOS
     --ThierColor: #dce9f7;
     --fontSizeGrande: 1.5rem;
     --fontSize: 1rem;
+    --footerColor: #0e0d22;
 }
 
 body {
@@ -471,9 +472,6 @@ PLANES
 MAPA
 =============================
 */
-.caja-mapa {
-    height: 800px;
-}
 
 .caja-mapa__contenedor {
     height: 400px;
@@ -490,6 +488,51 @@ MAPA
     background-color: var(--ThierColor);
 }
 
+/*
+=============================
+FOOTER
+=============================
+*/
+
+footer{
+    display: flex;
+    background: var(--footerColor);
+    height: 350px;
+    width: 100%;
+    flex-flow: column;
+}
+
+.titulo-footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.caja-footer{
+    display: flex;
+    position: relative;
+    top: 20px;
+    wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding-right: 10px;
+    padding: 0 10px;
+
+}
+
+info-footer{
+    font-size: var(--fontSize);
+    flex-basis: 50px;
+    margin: auto;
+
+}
+
+.creditos-footer{
+    background-color: #070091;
+    margin-top: 30px;
+}
 /*=========end estilo de mapa===================*/
 /*
 =============================
