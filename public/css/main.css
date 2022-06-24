@@ -357,7 +357,6 @@ PLANES
     background-color: white;
     box-shadow: 1px 1px 1px 1px white;
     width: 300px;
-    height: 350px;
     z-index: 10;
     border-radius: 7px;
 }
@@ -381,29 +380,56 @@ PLANES
     margin: 0;
     padding: 20px;
 }
-
-/* .plan-price {
-    display: flex;
-    background: var(--ThierColor);
-    font-size: var(--fontSizeGrande);
-    box-shadow: 0px 2px 4px black;
-    border-radius: 2px;
-    justify-content: center;
-    color: white;
+.plan-subtitulo{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--mainColor);
+    /* border-bottom: 1px solid var(--mainColor);
+    border-top: 1px solid var(--mainColor); */
+    padding: 0.2rem;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+.plan-details{
+    margin:0;
+}
+.plan-details li{
+    font-size: 1.25rem;
+    /* cursor: pointer; */
+    padding:0.5rem 0rem;
+    transition: transform 0.3s;
+    position: relative;
+}
+.plan-details li::before{
+    content: '';
+    background-color: var(--mainColor);
+    /* width: 15px;
+    height: 3px; */
+    position: absolute;
+    top: 0%;
+}
+/* .plan-details li:hover{
+    transform: translateY(-3px);
 } */
+.plan-details li img{
+    max-width: 35px;
+    margin-right: 0.3rem;
+}
+
 
 .plan-price {
-    margin-top: auto;
     display: block;
     color: var(--mainColor);
     text-align: center;
     text-decoration: none;
     padding: 1rem;
+    padding-top: 0;
 }
 
 .plan-price>div {
     text-align: start;
     font-size: var(--fontSizeGrande);
+    padding-bottom: 0.5rem;
 }
 
 .plan-price>div>span {
