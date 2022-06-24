@@ -38,7 +38,6 @@
         <div class="qsomos__img">
            
         </div>
-
     </section>
     <section class="container">
         <x-servicios/>
