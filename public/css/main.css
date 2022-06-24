@@ -202,8 +202,8 @@ ACARGO ARTURO
     border-end-start-radius: 0.6rem;
     width: 150px;
     /* background-color: var(--mainColor); */
-    /* background-color: rgba(71, 65, 192, 1); */
-    background-color: var(--SecondaryColor);
+    background-color: rgba(71, 65, 192, 1);
+    /* background-color: var(--SecondaryColor); */
     transform: translateX(150px);
     transition: all 0.7s;
     display: none;
@@ -357,7 +357,6 @@ PLANES
     background-color: white;
     box-shadow: 1px 1px 1px 1px white;
     width: 300px;
-    z-index: 10;
     border-radius: 7px;
 }
 
