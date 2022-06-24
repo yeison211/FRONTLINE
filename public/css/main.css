@@ -287,10 +287,8 @@ Quienes somos
     border-left: 1px solid white; */
 }
 .qsomos__text >img{
-    width: 255px;
-    height: 130px;
-    filter: invert(1);
-    object-fit: cover;
+    width: 196px;
+    height: 89px;
 }
 .qsomos__text h1{
    position: relative;
