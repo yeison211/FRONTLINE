@@ -1,4 +1,4 @@
-<div class="qsomos__text" id="qsomos">
+<div class="qsomos__text">
     <img src="{{asset('images/frontlinelogo.svg')}}" alt="">
     <h1>FRONTLINE</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi asperiores soluta eius quam nam dolore in similique, 
