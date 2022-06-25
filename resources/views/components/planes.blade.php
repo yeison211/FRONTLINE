@@ -1,4 +1,4 @@
-<div class="section-planes">
+<div class="section-planes" id="planes">
     <h2>Planes</h2>
     <div class="info-planes">
         <div class="plan-box">

@@ -1,4 +1,4 @@
-<section class="conten">
+<section class="conten" id="contactenos">
     <h2 class="title">Contactanos </h2>
     <div class="contact-grup">
         <div class="contact-info">

@@ -1,4 +1,4 @@
-<div class="section-serv">
+<div class="section-serv" id="servicios">
     <h2>SERVICIOS</h2>
     <div class="serv-container">
         <div class="item">

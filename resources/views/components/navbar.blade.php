@@ -2,9 +2,9 @@
     <ul>
         <li class="navbar-pc__logo" style="color: blue"><img src="{{asset('images/logo.jpg')}}" alt=""></li>
         <li class="nav-bar__toggle-btn"> <div class="toggle-btn__line"></div></li>
-        <li class="item">Contactenos</li>
-        <li class="item">Servicio</li>
-        <li class="item">Cobertura</li>
-        <li class="item">Planes</li>
+        <li class="item"><a href="#servicios">Servicios</a></li>
+        <li class="item"><a href="#planes">Planes</a></li>
+        <li class="item"><a href="#cobertura">Cobertura</a></li>
+        <li class="item"><a href="#contactenos">Contactenos</a></li>
     </ul>
 </nav>
