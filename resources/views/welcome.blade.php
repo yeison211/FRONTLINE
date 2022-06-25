@@ -51,6 +51,8 @@
         <!--Mapa-->
         <x-mapa/>
     </main>
+    <x-contactanos>
+    </x-contactanos>
     <footer>
         <x-footer/>
         <x-button/>

@@ -59,7 +59,7 @@
                     <div>Desde $95<span>Mil</span></div>
                     <button class="btn1">LO QUIERO</button>
                 </div>
-            </div>
+            </div>  
         </div>
 
     </div>

@@ -515,6 +515,163 @@ MAPA
 
 /*
 =============================
+Contactanos
+=============================
+*/
+/*====Movil========*/
+.title{
+    text-align: center;
+}
+
+.input-dat div ~input,
+.input-dat div ~button {
+    width: 100%;
+}
+.conten{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.contact-form form {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-column: 1 / 3;
+}
+.contact-form .btn1{
+    text-align: center;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+    grid-column:  1/3;
+}
+.input-dat-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    grid-column:  1/3;
+}
+.input-dat{
+    position: relative;
+    width: 100%;
+}
+.input-dat-flex{
+    position: relative;
+    width: 100%;
+}
+.input-dat input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    outline: none;
+}
+.input-dat-flex input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    outline: none;
+}
+.input-dat textarea{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-dat span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+}
+.input-dat-flex span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+}
+.input-dat input:valid ~span,
+.input-dat input:focus ~sapn
+{
+    color:var(--mainColor);
+    transform: translatex(10px) translateY(-7px);
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid var(--mainColor);
+    border-right: 1px solid var(--mainColor);
+
+}
+.input-dat textarea:valid ~span,
+.input-dat textarea:focus ~sapn
+{
+    color:var(--mainColor);
+    transform: translatex(10px) translateY(-7px);
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid var(--mainColor);
+    border-right: 1px solid var(--mainColor);
+
+}
+.input-dat-flex  input:valid ~span,
+.input-dat-flex  input:focus ~sapn
+{
+    color:var(--mainColor);
+    transform: translatex(10px) translateY(-7px);
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid var(--mainColor);
+    border-right: 1px solid var(--mainColor);
+
+}
+.info div img{
+    max-width: 15px;
+    margin-right: 10px;
+}
+
+.contact-info h4,
+.contact-info div,
+.contact-info p{
+    text-align: left;
+    padding-left: 25px;
+
+}
+.contact-info h4{
+    padding-top: 15px;
+
+}
+.contact-info div{
+    list-style: none;
+    padding: 0;
+    padding: .3em;
+}
+
+/*====EScritorio ========*/
+@media(min-width: 700px){
+    .conten{
+        padding: 0 4rem;
+    }
+
+    .contact-grup {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .contact-form{
+        padding: 10px;
+        padding-top: 40px;
+    }
+}
+/*
+=============================
 FOOTER
 =============================
 */
