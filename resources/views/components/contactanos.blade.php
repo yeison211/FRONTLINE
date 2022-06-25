@@ -1,9 +1,8 @@
-<div class="conten">
-    <h1 class="title">Contactos </h1>
+<section class="conten">
+    <h2 class="title">Contactanos </h2>
     <div class="contact-grup">
         <div class="contact-info">
-            <h4>Contactenos</h4>
-            <span>puede contactarse con notro via telefonica, correo o visitando nuestra oficina </span>
+            <p>Puede contactarse con notro via telefonica, correo o visitando nuestra oficina. </p>
             <div class="info">
                 <div>
                     <img src="{{ asset('icons/gmail.svg') }}" alt="gmail"> Correo:
@@ -26,26 +25,27 @@
                 <form action="">
                 <div class="input-dat" >
                     <input  type="text" required="required">
-                    <span> nombre </span>
+                    <span> *nombre </span>
                 </div>
                 <div class="input-dat"  >
                     <input  type="text" required="required">
-                    <span> asuntos</span>
+                    <span> *asunto</span>
                 </div>
                 <div class="input-dat-flex">
                     <input type="text" required="required">
-                    <span> Gmail</span>
+                    <span> *Gmail</span>
                 </div>
-                <div class="input-dat-flex">
+                {{-- <div class="input-dat-flex">
                     <input type="text" required="required" >
                     <span> direccion </span>
+                </div> --}}
+                <div class="input-dat-flex" >
+                    <textarea type="text" required cols="24" rows="6" ></textarea>
+                    <span> Comentario </span>
                 </div>
-                <div class="input-dat" >
-                    <textarea type="text" required="required" ></textarea>
-                    <span> descripcion </span>
-                </div>
-                <div class="button">
-                    <button  class="btn1">enviar</button>
+                <div class="button mb-4">
+                    {{-- <button  class="btn1" type="button">Enviar</button> --}}
+                    <input type="button" value="Enviar" class="btn1">
                 </div>
             </form>
 
@@ -54,4 +54,4 @@
 
     </div>
 
-</div>
+</section>
