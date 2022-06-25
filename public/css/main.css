@@ -265,6 +265,53 @@ Carousel
 /*=========end estilo carousel===================*/
 
 /*
+==============================
+Quienes somos
+==============================
+*/
+.qsomos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--mainColor);
+}
+.qsomos__text{
+    flex-basis: 50%;
+    padding: 4rem 2rem;
+    /* height: 450px; */
+    font-size: var(--fontSize);
+    color: white;
+    text-align: center;
+    outline: 1px solid #fff;
+    outline-offset: -20px;
+    /* border-bottom: 1px solid white;
+    border-left: 1px solid white; */
+}
+.qsomos__text >img{
+    width: 196px;
+    height: 89px;
+}
+.qsomos__text h1{
+   position: relative;
+   display: block;
+   font-weight: bolder;
+}
+.qsomos__text h1::before{
+    content: '';
+    width: 2.3em;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: -10%;
+    left: 52.5%;
+}
+.qsomos__img{
+    flex-basis: 50%;
+    background-color: rgb(218, 212, 212) !important;
+}
+
+
+
+/*
 =======================
 SERVICIOS
 =======================
@@ -278,6 +325,8 @@ SERVICIOS
     text-align: center;
     padding-bottom: 1rem;
     font-weight: bolder;
+    color: var(--mainColor);
+    font-size: 2.25rem;
 }
 
 .serv-container {
@@ -456,12 +505,12 @@ MAPA
 }
 
 .caja-mapa h2 {
-    z-index: 5;
     margin: 0;
     padding: 1.5rem 0;
     text-align: center;
     font-weight: bolder;
     background-color: var(--ThierColor);
+    font-size: 2.25rem;
 }
 
 /*
@@ -473,7 +522,6 @@ FOOTER
 footer{
     display: flex;
     background: var(--footerColor);
-    height: 350px;
     width: 100%;
     flex-flow: column;
 }
@@ -487,27 +535,29 @@ footer{
     display: flex;
     position: relative;
     top: 20px;
-    wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     color: white;
     width: 100%;
-    height: 200px;
     padding-right: 10px;
     padding: 0 10px;
 
 }
 
-info-footer{
+.info-footer{
     font-size: var(--fontSize);
-    flex-basis: 50px;
+    flex-basis: 400px;
+    flex-grow: 1;
     margin: auto;
-
 }
 
 .creditos-footer{
     background-color: #070091;
     margin-top: 30px;
+}
+.copy{
+    color: white;
 }
 /*=========end estilo de mapa===================*/
 /*
@@ -545,6 +595,14 @@ RESPONSIVE
     /*Banner */
     .swiper {
         height: 300px;
+    }
+    /*Quienes somos */
+    .qsomos__text{
+        flex-basis: 100%;
+    }
+    .qsomos__img{
+        display: hidden;
+        flex-basis: 100%;
     }
 
 
