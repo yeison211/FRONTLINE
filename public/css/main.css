@@ -332,7 +332,8 @@ SERVICIOS
 =======================
 */
 .section-serv {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    padding-top: 3.2rem;
 }
 
 .section-serv h2,
@@ -404,7 +405,8 @@ PLANES
     background: var(--ThierColor);
     width: 100%;
     margin-top: 1.5rem;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    padding-top: 3.2rem;
 }
 
 
@@ -520,7 +522,8 @@ MAPA
 
 .caja-mapa h2 {
     margin: 0;
-    padding: 2.2rem 0;
+    padding-top: 3.2rem;
+    padding-bottom: 1rem;
     text-align: center;
     font-weight: bolder;
     background-color: var(--ThierColor);
@@ -536,7 +539,8 @@ Contactanos
 /*====Movil========*/
 .title{
     color: var(--mainColor);
-    padding-top: 2rem;
+    padding-top: 3.2rem;
+    padding-bottom: 1rem;
     text-align: center;
     font-size: 2.25rem;
     font-weight: bolder;
@@ -797,6 +801,9 @@ RESPONSIVE
     /* Form contactenos*/
     .input-dat{
         grid-column:  1/3;
+    }
+    .title{
+        padding-bottom: 0;
     }
 }
 

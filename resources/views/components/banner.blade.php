@@ -1,5 +1,5 @@
 <!-- Slider main container -->
-<div class="swiper" id="inicio">
+<div class="swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->

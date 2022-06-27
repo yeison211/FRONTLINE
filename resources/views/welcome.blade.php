@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" id="inicio">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,6 @@
     {{-- Carruosel --}}
     <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
-<body>
     <header>
       <!--Navbar-->
       <x-navbar />
@@ -29,11 +28,11 @@
     <section class="qsomos">
        <x-qsomos/>
     </section>
-    <section class="container">
+    <section class="container" id="servicios">
         <x-servicios/>
     </section>
      <!--Planes-->
-    <section class="container-planes">
+    <section class="container-planes" id="planes">
         <div class="container">
             <x-planes/>
         </div>
