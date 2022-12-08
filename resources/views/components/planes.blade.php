@@ -16,7 +16,7 @@
                 <p class="plan-subtitulo">TELEVISION</p>
                 <img src="{{asset('images/canales.png')}}" alt="">
                 <div class="plan-price">
-                    <div>Desde $75<span>Mil</span></div>
+                    <div>Desde $65<span>Mil</span></div>
                     <button class="btn1">LO QUIERO</button>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <p class="plan-subtitulo">TELEVISION</p>
                 <img src="{{asset('images/canales.png')}}" alt="">
                 <div class="plan-price">
-                    <div>Desde $85<span>Mil</span></div>
+                    <div>Desde $75<span>Mil</span></div>
                     <button class="btn1">LO QUIERO</button>
                 </div>
             </div>
